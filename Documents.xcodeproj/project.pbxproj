@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		497DC89920D4A1BE00701850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DC89820D4A1BE00701850 /* AppDelegate.swift */; };
-		497DC89B20D4A1BE00701850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DC89A20D4A1BE00701850 /* ViewController.swift */; };
+		497DC89B20D4A1BE00701850 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DC89A20D4A1BE00701850 /* DocumentViewController.swift */; };
 		497DC89E20D4A1BE00701850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497DC89C20D4A1BE00701850 /* Main.storyboard */; };
 		497DC8A020D4A1BF00701850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497DC89F20D4A1BF00701850 /* Assets.xcassets */; };
 		497DC8A320D4A1BF00701850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497DC8A120D4A1BF00701850 /* LaunchScreen.storyboard */; };
+		497DC8AB20D4A4A400701850 /* SaveDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DC8AA20D4A4A400701850 /* SaveDocumentViewController.swift */; };
+		497DC8AD20D4A71400701850 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DC8AC20D4A71400701850 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		497DC89520D4A1BE00701850 /* Documents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Documents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		497DC89820D4A1BE00701850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		497DC89A20D4A1BE00701850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		497DC89A20D4A1BE00701850 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
 		497DC89D20D4A1BE00701850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		497DC89F20D4A1BF00701850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		497DC8A220D4A1BF00701850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		497DC8A420D4A1BF00701850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497DC8AA20D4A4A400701850 /* SaveDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveDocumentViewController.swift; sourceTree = "<group>"; };
+		497DC8AC20D4A71400701850 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				497DC89820D4A1BE00701850 /* AppDelegate.swift */,
-				497DC89A20D4A1BE00701850 /* ViewController.swift */,
+				497DC89A20D4A1BE00701850 /* DocumentViewController.swift */,
 				497DC89C20D4A1BE00701850 /* Main.storyboard */,
+				497DC8AA20D4A4A400701850 /* SaveDocumentViewController.swift */,
+				497DC8AC20D4A71400701850 /* Constants.swift */,
 				497DC89F20D4A1BF00701850 /* Assets.xcassets */,
 				497DC8A120D4A1BF00701850 /* LaunchScreen.storyboard */,
 				497DC8A420D4A1BF00701850 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				497DC89B20D4A1BE00701850 /* ViewController.swift in Sources */,
+				497DC89B20D4A1BE00701850 /* DocumentViewController.swift in Sources */,
 				497DC89920D4A1BE00701850 /* AppDelegate.swift in Sources */,
+				497DC8AB20D4A4A400701850 /* SaveDocumentViewController.swift in Sources */,
+				497DC8AD20D4A71400701850 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
